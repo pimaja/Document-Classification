@@ -1,0 +1,4 @@
+pathlib
+nltk
+torch
+transformers
