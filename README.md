@@ -3,8 +3,8 @@
 This is a Document Classification project in Python, based on the Kaggle challenge https://www.kaggle.com/datasets/sachinsharma1123/document-classification/data, and further developed for inferencing in production.
 
 It consists of 2 main files:
-- **development.ipynb** Jupyter Notebook where the data is analyzed and different machine learning models tested. Results show that BERT-Mini gives the best performance without the need to over- and undersample the imbalanced dataset, which is required for the classical machine learning models. All structures of BERT-Mini and its fine-tuning can be found in this notebook.
-- **main.py** script for production which takes a text file as input and outputs the predicted category for the model. For prediction it uses a checkpoint of a fine-tuned BERT-Mini in development.ipynb.
+- **development.ipynb** - Jupyter Notebook where the data is analyzed and different machine learning models tested. Results show that BERT-Mini gives the best performance without the need to over- and undersample the imbalanced dataset, which is required for the classical machine learning models. All structures of BERT-Mini and its fine-tuning can be found in this notebook.
+- **main.py** - script for production which takes a text file as input and outputs the predicted category for the model. For prediction it uses a checkpoint of a fine-tuned BERT-Mini in development.ipynb.
 
 Other files:
 - **checkpoint** - checkpoint of a fine-tuned BERT-Mini for inferencing only (optimizer.pt and scheduler.pt were removed to decrease the size of the checkpoint). Keep this in the same directory as the **main.py** to be able to run the script.
