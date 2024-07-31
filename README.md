@@ -1,4 +1,5 @@
-1. OVERVIEW
+# 1. OVERVIEW
+
 This is a Document Classification project in Python, based on the Kaggle challenge https://www.kaggle.com/datasets/sachinsharma1123/document-classification/data, and further developed for inferencing in production.
 
 It consists of 2 main files:
@@ -11,7 +12,8 @@ Other files:
 - **requirements.txt** - required Python packages for running **main.py** script.
 - **file.txt** - contains the data used for fine-tuning in **development.ipynb**. Downloaded from Kaggle https://www.kaggle.com/datasets/sachinsharma1123/document-classification/data. Keep this file in the same directory as development.ipynb to be able to run the notebook.
 
-2. INSTALLATIONS
+# 2. INSTALLATIONS
+
 For **main.py** (recommended):
 - create a Conda environment
   ```
