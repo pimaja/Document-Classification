@@ -12,6 +12,7 @@ Other files:
 - **requirements.txt** - required Python packages for running **main.py** script.
 - **file.txt** - contains the data used for fine-tuning in **development.ipynb**. Downloaded from Kaggle https://www.kaggle.com/datasets/sachinsharma1123/document-classification/data. Keep this file in the same directory as development.ipynb to be able to run the notebook.
 
+
 # 2. INSTALLATIONS
 
 For **main.py** (recommended):
@@ -31,3 +32,12 @@ For **main.py** (recommended):
 For **development.ipynb**:
 - the notebook can be ran on Google Collab, Kaggle or own instance with Python and Jupyter Notebook installed.
 - pip installation command for all needed packages is included in the development.ipynb.
+
+
+# 3. USAGE
+
+The main script should be invoked with a command like the following:
+```
+python main.py --file "document.txt"
+```
+The script should take a text file (document.txt) as input and output the predicted category for the document.
