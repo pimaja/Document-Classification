@@ -112,7 +112,7 @@ def main():
     else:
         print(f"Predicted class is: {prediction[0]['label']}")
         print(f"Prediction score is: {prediction[0]['score']:.2f} \n")
-        return prediction[0]['label']
+        return
 
 
 if __name__ == "__main__":
